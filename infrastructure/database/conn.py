@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 
 
 class SQLAlchemy:
-    def __init__(self, **kwargs):
+    def __init__(self):
         self._engine = None
         self._session = None
 

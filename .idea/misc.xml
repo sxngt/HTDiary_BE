@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="MITS_BO" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="MITS_BO" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="htdiary" project-jdk-type="Python SDK" />
 </project>

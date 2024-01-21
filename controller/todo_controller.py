@@ -1,5 +1,4 @@
 from litestar import Controller, get
-from datetime import *
 
 
 class TodoController(Controller):
