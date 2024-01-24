@@ -10,4 +10,6 @@ class TodoRepository:
         self.entity = entity
 
     def get_all_todo(self):
-        return self.db.query(self.entity).all()
+        res = self.db.query(self.entity).all()
+        print(res)
+        return res

@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base
+from sqlalchemy.orm import sessionmaker, declarative_base, Session
 
 
 class SQLAlchemy:
@@ -33,7 +33,7 @@ class SQLAlchemy:
         self._engine.dispose()
         print("DB disconnected")
 
-    def get_db(self):
+    def get_db(self) -> Session:
         """
         요청마다 DB 세션 유지
         """
