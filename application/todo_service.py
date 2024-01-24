@@ -1,5 +1,5 @@
-from application.repository.todo_repository import TodoRepository
-from application.entity.todo import Todo
+from domain.repository.todo_repository import TodoRepository
+from domain.entity.todo import Todo
 from infrastructure.database.conn import db
 
 
