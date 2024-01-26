@@ -33,7 +33,7 @@ class SQLAlchemy:
         self._engine.dispose()
         print("DB disconnected")
 
-    def get_db(self) -> Session:
+    def get_db(self):
         """
         요청마다 DB 세션 유지
         """

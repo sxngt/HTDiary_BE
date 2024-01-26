@@ -13,3 +13,4 @@ class TodoRepository:
         res = self.db.query(self.entity).all()
         print(res)
         return res
+
